@@ -59,10 +59,10 @@ window.addEventListener('scroll', stickyHeader);
 
 // Project showcase
 const projects = [
-    { id: 1, title: "Project 1", category: "web", image: "2me.jpg", description: "A web application for managing tasks." },
-    { id: 2, title: "Project 2", category: "app", image: "2me.jpg", description: "A mobile app for tracking fitness goals." },
-    { id: 3, title: "Project 3", category: "design", image: "tech-news-post-featured-img-11.jpg", description: "A branding project for a local business." },
-    { id: 4, title: "Project 4", category: "web", image: "that.jpg", description: "An e-commerce website for a clothing brand." }
+    { id: 1, title: "Project 1", category: "web", image: "page1.jpg", description: "A web application for managing tasks." },
+    { id: 2, title: "Project 2", category: "app", image: "page2.jpg", description: "A mobile app for tracking fitness goals." },
+    { id: 3, title: "Project 3", category: "design", image: "page3.jpg", description: "A branding project for a local business." },
+    { id: 4, title: "Project 4", category: "web", image: "page4.jpg", description: "An e-commerce website for a clothing brand." }
 ];
 
 const projectsContainer = document.querySelector('.projects');
