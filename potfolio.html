@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayodele Michael - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="logo">Ayodele Michael <Main></Main></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h1 id="typing-effect"></h1>
+            <p>I'm a <span id="profession"></span> passionate about creating amazing web experiences.</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="mepic.jpg" alt="Your Name" >
+            <p>
+                Hello, I'm Ayodele Michael, a dedicated web developer with a passion for creating user-friendly and visually appealing websites. With a background in Computer Science from [Leadcity university] and over three years of hands-on experience, I specialize in HTML, CSS, and JavaScript
+            </p>
+            <a href="path-to-your-resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects">
+                <!-- Projects will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <canvas id="skills-chart"></canvas>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-posts">
+                <!-- Blog posts will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Ayodele Michael</label>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">ayodelemichael170@gmail.com</label>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Michael. All rights reserved.</p>
+    </footer>
+
+    <button id="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+</body>
+</html>
+<script src="script.js"></script>
+
